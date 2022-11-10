@@ -1,11 +1,14 @@
-/* eslint-disable */
-import "bootstrap";
-import "./style.css";
-
-import "./assets/img/rigo-baby.jpg";
-import "./assets/img/4geeks.ico";
-
 window.onload = function() {
-  //write your code here
-  console.log("Hello Rigo from the console!");
+  let who = ["Paco Martínez Soria", "Ramontxu", "Chavelo", "Paul Anka"];
+  let what = ["se comió", "aplastó", "robó", "rompió", "vilipendió"];
+  let when = [
+    "al salir a silbar a los pájaros",
+    "al dormir",
+    "al retarme a un duelo",
+    "al comerse un helado"
+  ];
+
+  function generadorExcusas() {
+    console.log(Math.floor(Math.random() * who.lenght));
+  }
 };
